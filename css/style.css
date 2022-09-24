@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.headermain {
+  display: flex;
+  gap: 10px;
+  margin-left: 31.5vh;
+}
+
+.logo {
+  margin-top: 25px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.section {
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainpagetext {
+  padding-top: 66vh;
+  margin-left: 31.5vh;
+}
+
+.btnheader {
+  font-weight: 650;
+  border: 2px solid transparent;
+  transition: 0.4ms;
+  color: white;
+  text-decoration: none;
+  height: fit-content;
+  padding-top: 30px;
+  font-size: 13px;
+}
+.btnheader:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.section1 {
+  background-image: url("/images/home/Homepage_Desktop.webp");
+}
+
+.section2 {
+  background-image: url("/images/home/Homepage_Desktop2.webp");
+}
+
+.section3 {
+  background-image: url("/images/home/S20_Chopstick_Stack_Desktop.webp");
+}
+
+.section4 {
+  background-image: url("/images/home/hls-resized-2.webp");
+}
+
+.h3land {
+  font-weight: 380;
+  font-size: 20px;
+}
+
+.h1land {
+  font-weight: 600;
+  font-size: 46px;
+  margin-top: -10px;
+  max-width: 56vh;
+}
+
+.btnland {
+  margin-top: 20px;
+  border-radius: 0px;
+  border: 2px solid white;
+  transition: 0.4s;
+  color: white;
+  width: 160px;
+  height: 50px;
+  padding: auto auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btnland:hover {
+  border: 2px solid white !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+.mainfooter {
+  background-color: black;
+  color: white;
+  height: 11.3vh;
+  font-size: 14px;
+  font-variant: all-Small-caps;
+}
+
+.footeralign {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.footertextsimple {
+  color: grey;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
