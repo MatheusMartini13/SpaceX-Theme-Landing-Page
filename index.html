@@ -4,54 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <!-- CSS AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <!-- CSS Document -->
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <title>SpaceX</title>
 </head>
 <body>
 <!-- Main Navbar -->
-  <!-- <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="headermain">
-      <a href="./index.html">
-        <img src="./images/354.png" alt="" class="logo me-5">
-      </a>
-      <a href="./pages/falcon9.html" class="btnheader">FALCON 9</a>
-      <a href="./pages/human.html" class="btnheader">HUMAN SPACE FLIGHT</a>
-    </div>
-  </nav> -->
-
 <nav class="navbar navbar-expand-md fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">
-      <img src="./images/354.png" alt="" class="logo me-5">
+  <div class="container-fluid headermain">
+    <a class="navbar-brand navposition" href="./index.html">
+      <img src="./images/spacex-logo-black-and-white.png" alt="" class="logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler navposition icontoggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+      <span><i class="bi bi-list iconstyle"></i></span>
     </button>
-
+    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1"; id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+      <div class="offcanvas-header">
+      <a href="./index.html" class="btnheader"><img src="./images/spacex-logo-black-and-white.png" alt="" class="logonav"></a>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="navitem btnheader">
+            <a href="./pages/falcon9.html" class="btnheader">FALCON 9</a>
+          </li>
+          <li class="nav-item btnheader">
+            <a href="./pages/human.html" class="btnheader">HUMAN SPACE FLIGHT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </nav>
-
-
-<!-- <nav class="navbar navbar-expand-lg fixed-top">
-  <div class="headermain">
-    <a href="./index.html">
-      <img src="./images/354.png" alt="" class="logo me-5">
-    </a>
-    <a href="./pages/falcon9.html" class="btnheader">FALCON 9</a>
-    <a href="./pages/human.html" class="btnheader">HUMAN SPACE FLIGHT</a>
-  </div>
-  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-
-  </div>
-</nav> -->
 
 <!-- Main Pages -->
   <section class="container-fluid section section1">
@@ -61,24 +51,36 @@
       <button class="btn btn-lg btn-outline-dark btnland" data-aos="fade-up" data-aos-delay="200">WATCH</button>
     </div>
   </section>
+  <div class="container text-center arrowposition">
+    <img src="./images/home/arrowDown.gif" alt="arrowdown" class="arrowdown">
+  </div>
   <section class="container-fluid section section2">
     <div class="mainpagetext">
       <H1 class="h1land" data-aos="fade-up" data-aos-delay="100">SPACE X + T-MOBILE UPDATE</H1>
       <button class="btn btn-lg btn-outline-dark btnland" data-aos="fade-up" data-aos-delay="200">LEARN MORE</button>
     </div>
   </section>
+    <div class="container text-center arrowposition">
+    <img src="./images/home/arrowDown.gif" alt="arrowdown" class="arrowdown">
+  </div>
   <section class="container-fluid section section3">
     <div class="mainpagetext">
       <H1 class="h1land" data-aos="fade-up" data-aos-delay="100">STARSHIP UPDATE</H1>
       <button class="btn btn-lg btn-outline-dark btnland" data-aos="fade-up" data-aos-delay="200">LEARN MORE</button>
     </div>
   </section>
+    <div class="container text-center arrowposition">
+    <img src="./images/home/arrowDown.gif" alt="arrowdown" class="arrowdown">
+  </div>
   <section class="container-fluid section section4">
     <div class="mainpagetext">
       <H1 class="h1land" data-aos="fade-up" data-aos-delay="100">STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON</H1>
       <button class="btn btn-lg btn-outline-dark btnland" data-aos="fade-up" data-aos-delay="200">LEARN MORE</button>
     </div>
   </section>
+    <div class="container text-center arrowposition">
+    <img src="./images/home/arrowDown.gif" alt="arrowdown" class="arrowdown">
+  </div>
 
 <!-- Main Footer -->
   <footer class="container-fluid mainfooter ms-0 ps-0">
@@ -94,7 +96,7 @@
     </nav>
   </footer>
 
-  <!-- Script AOS -->
+  <!-- Scripts AOS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

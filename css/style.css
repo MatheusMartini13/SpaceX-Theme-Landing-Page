@@ -15,10 +15,28 @@ body {
   margin-left: 31.5vh;
 }
 
+.icontoggler {
+  margin: 0px;
+  border: 0px solid transparent;
+}
+.icontoggler:focus {
+  box-shadow: none;
+}
+
+.iconstyle {
+  color: white;
+  font-size: 24px;
+}
+
 .logo {
   margin-top: 25px;
-  height: 25px;
+  height: 15px;
   margin-left: 20px;
+}
+
+.logonav {
+  margin: auto auto;
+  height: 40px;
 }
 
 .btnheader {
@@ -96,6 +114,16 @@ body {
   color: black !important;
 }
 
+.arrowdown {
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.arrowposition {
+  margin-top: -60px;
+}
+
 .mainfooter {
   background-color: black;
   color: white;
@@ -106,9 +134,10 @@ body {
 
 .footeralign {
   display: flex;
-  gap: 30px;
+  gap: 5px 30px;
   justify-content: center;
-  padding-top: 30px;
+  align-items: center;
+  align-content: center;
 }
 
 .footertextsimple {
@@ -132,18 +161,39 @@ body {
   .mainpagetext {
     margin-left: 15vh;
   }
+  .headermain {
+    margin-left: 7vh;
+  }
   .footeralign {
-    gap: 10px;
+    gap: 5px 10px;
   }
 }
 @media (max-width: 680px) {
-  .footeralign {
-    gap: 10px;
+  .btnfooter {
+    font-size: 10px;
   }
 }
 @media (max-width: 425px) {
+  .headermain {
+    margin: auto auto;
+  }
+  .navposition {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+  }
   .mainpagetext {
     margin-left: 7vh;
+  }
+  .headermain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
   }
   .h3land {
     font-weight: 380;
@@ -154,6 +204,9 @@ body {
     font-size: 25px;
     margin-top: -10px;
     max-width: 56vh;
+  }
+  .footeralign {
+    gap: 7px;
   }
 }
 
