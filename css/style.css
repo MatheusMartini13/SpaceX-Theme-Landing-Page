@@ -1,7 +1,147 @@
+.falconsection {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
 .section21 {
   background-image: url(../images/falcon9/f9_feature.jpg);
 }
 
+.numbers-count {
+  width: 100vh;
+  height: 40vh;
+}
+
+.textfalconcenter {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.subtextfalconcenter {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.textnumberbig {
+  font-size: 140px;
+  font-weight: 400;
+}
+
+.textnumbersmall {
+  font-size: 22px;
+  font-weight: 550;
+  font-variant-caps: all-petite-caps;
+}
+
+.section22 {
+  background-image: url(../images/falcon9/02.jpg);
+}
+
+.falconsection2 {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+
+.textfalconside {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section23 {
+  background-image: url(../images/falcon9/03.jpg);
+}
+
+.falconsection3 {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+
+.flushhr {
+  opacity: 1;
+}
+
+.flushtable {
+  padding: 0px 20vh;
+}
+
+.flushitem {
+  background-color: transparent;
+  border: 0px solid transparent;
+  padding: 0px 0px;
+  justify-items: space-between;
+}
+
+.flushdetail {
+  color: grey;
+  font-weight: 550;
+}
+
+.textstart {
+  text-align: start;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.textend {
+  text-align: end;
+}
+
+@media (max-width: 1000px) {
+  .textnumberbig {
+    font-size: 70px;
+  }
+  .textnumbersmall {
+    font-size: 14px;
+  }
+  .flushtable {
+    padding: 0px 10vh;
+  }
+}
+@media (max-width: 850px) {
+  .falconsection2 {
+    align-items: center;
+  }
+  .flushtable {
+    padding: 0px 5vh;
+  }
+}
+@media (max-width: 520px) {
+  .textfalconcenter {
+    font-size: 50px;
+  }
+  .subtextfalconcenter {
+    font-size: 14px;
+  }
+  .textfalconside {
+    font-size: 14px;
+  }
+  .textnumberbig {
+    font-size: 42px;
+  }
+  .textnumbersmall {
+    font-size: 13px;
+  }
+}
 * {
   margin: 0px;
   padding: 0px;
