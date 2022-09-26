@@ -65,6 +65,50 @@
   background-image: url(../images/falcon9/03.jpg);
 }
 
+.section24{
+  background-image: url(../images/falcon9/04.jpg);
+}
+
+.section25{
+  background-image: url(../images/falcon9/05.jpg);
+}
+
+.section26{
+  background-image: url(../images/falcon9/06.jpg);
+}
+
+.section27{
+  background-image: url(../images/falcon9/07.jpg);
+}
+
+.section28{
+  background-image: url(../images/falcon9/08.jpg);
+}
+
+.section29{
+  background-image: url(../images/falcon9/09.jpg);
+}
+
+.section211{
+  background-image: url(../images/falcon9/10.jpg);
+}
+
+.section212{
+  background-image: url(../images/falcon9/11.jpg);
+}
+
+.section213{
+  background-image: url(../images/falcon9/12.jpg);
+}
+
+.section214{
+  background-image: url(../images/falcon9/13.jpg);
+}
+
+.section215{
+  background-image: url(../images/falcon9/14.jpg);
+}
+
 .falconsection3{
   height: 100vh;
   background-position: center center;
@@ -106,6 +150,60 @@ padding: 0px 20vh;
   text-align: end;
 }
 
+.tabletitle{
+  width: 100%;
+  text-align: left;
+  padding: 0px 20vh;
+}
+
+.containercarousel{
+  margin-top: 85vh;
+  height: 15vh;
+  position: absolute;
+  background-color: black;
+}
+
+.falconsection4{
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+
+.footerfalcon{
+  height: 60vh;
+}
+
+.btnfalcon{
+  border-radius: 0px;
+  border: 2px solid white;
+  padding: 13PX 13PX;
+  font-size: 13PX;
+  font-weight: 700;
+}
+
+.footerline{
+  margin: -8px 0px;
+  padding: 0px 0px;
+}
+
+.footertextfalcon{
+  color: grey;
+}
+
+.footerlinetop{
+  margin-top: 10vh;
+}
+
+.controldown{
+  position: absolute;
+  margin-top: 80vh;
+}
+
 // -------------------------------------------------- //
 
 @media (max-width:1000px){
@@ -121,6 +219,15 @@ padding: 0px 20vh;
 padding: 0px 10vh;
 }
 
+.tabletitle{
+padding: 0px 10vh;
+}
+
+.containercarousel{
+  margin-top: 80vh;
+  height: 20vh;
+}
+
 }
 
 @media (max-width:850px){
@@ -131,11 +238,26 @@ padding: 0px 10vh;
 .flushtable{
 padding: 0px 5vh;
 }
+
+.tabletitle{
+padding: 0px 5vh;
+}
+
 }
 
 @media (max-width:520px){
  .textfalconcenter{
   font-size: 50px;
+}
+
+.containercarousel{
+  margin-top: 75vh;
+  height: 25vh;
+}
+
+.tabletitle{
+  padding: auto auto;
+  text-align: center;
 }
 
 .subtextfalconcenter{
@@ -152,5 +274,12 @@ padding: 0px 5vh;
 
 .textnumbersmall{
   font-size: 13px;
+}
+}
+
+@media (max-width:360px){
+  .containercarousel{
+  margin-top: 67vh;
+  height: 33vh;
 }
 }
